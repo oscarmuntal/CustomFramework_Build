@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		1FFDCA8629B766DD008CA674 /* CustomFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDCA8529B766DD008CA674 /* CustomFramework.docc */; };
 		1FFDCA8729B766DD008CA674 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFDCA8429B766DD008CA674 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FFDCA8E29B76900008CA674 /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDCA8D29B76900008CA674 /* SDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FFDCA8129B766DD008CA674 /* CustomFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFDCA8429B766DD008CA674 /* CustomFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFramework.h; sourceTree = "<group>"; };
 		1FFDCA8529B766DD008CA674 /* CustomFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CustomFramework.docc; sourceTree = "<group>"; };
+		1FFDCA8D29B76900008CA674 /* SDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		1FFDCA8329B766DD008CA674 /* CustomFramework */ = {
 			isa = PBXGroup;
 			children = (
+				1FFDCA8D29B76900008CA674 /* SDK.swift */,
 				1FFDCA8429B766DD008CA674 /* CustomFramework.h */,
 				1FFDCA8529B766DD008CA674 /* CustomFramework.docc */,
 			);
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFDCA8E29B76900008CA674 /* SDK.swift in Sources */,
 				1FFDCA8629B766DD008CA674 /* CustomFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
